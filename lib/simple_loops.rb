@@ -37,7 +37,10 @@ def return_string_array(array)
   while counter < n do 
     string = array[counter].to_s
     new_array.push(string)
+<<<<<<< HEAD
     counter += 1 
+=======
+>>>>>>> 1ff5122af8dab1f46367af78934bc6e5440f4729
   end 
   return new_array
 end 
